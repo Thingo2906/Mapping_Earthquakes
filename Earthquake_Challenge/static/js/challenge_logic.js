@@ -25,8 +25,7 @@ let map = L.map('mapid', {
 // Create a base layer that holds all three maps.
 let baseMaps = {
   "Streets": streets,
-  "Satellite": satelliteStreets,
-  "Dark": dark
+  "Satellite": satelliteStreets
 };
 
 // 1. Add a 3rd layer group for the major earthquake data.
